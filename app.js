@@ -5,7 +5,10 @@ const fs = require('fs')
 const fsPromise = fs.promises;
 const cors = require('cors')
 
-const dir = 'D:/prog/kiosk/kiosk/src/static/Home'
+// 여기에 home 폴더의 경로를 설정해 주세요.
+const dir = 'C:/Users/jieun/prog/tailwind/soomgo_html/images/home'
+
+
 const whitelist = ["http://localhost:3001"]
 const corsOptions = {
     origin: function (origin, callback) {
