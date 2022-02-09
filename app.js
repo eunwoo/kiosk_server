@@ -6,7 +6,7 @@ const fsPromise = fs.promises;
 const cors = require('cors')
 
 // 여기에 home 폴더의 경로를 설정해 주세요.
-const dir = 'C:/Users/jieun/prog/tailwind/soomgo_html/images/home'
+const dir = 'C:/xampp/htdocs/home'
 
 
 const whitelist = ["http://localhost:3001"]
